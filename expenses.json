@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "6843d43530d97aab7e515c07"
+  },
+  "user_id": "45e7c662-000f-4e06-ae87-8a51a32a7c12",
+  "gst_number": "27AAACT2727Q1ZW",
+  "store_name": "TATA MOTORS LIMITED",
+  "total_amount": 952399,
+  "items": [
+    {
+      "category": "Transportation",
+      "name": "TataNexon",
+      "price": 805000
+    },
+    {
+      "category": "Transportation",
+      "name": "Car accessories Kit",
+      "price": 2117.8
+    }
+  ],
+  "date": "2023-06-17",
+  "address": "TATA MOTORS LIMITED, Nigadi Bhosari Road, PIMPRI, Pune, Maharashtra, 411018",
+  "created_at": {
+    "$date": "2025-06-07T05:55:01.279Z"
+  },
+  "location": {
+    "lat": 18.6529745,
+    "lon": 73.8172731,
+    "display_name": "Tata Motors Limited, Pimpri-Chinchwad, Haveli, Pune, Maharashtra, India"
+  }
+}]
