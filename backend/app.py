@@ -50,7 +50,7 @@ class CONSTANTS:
     CAPTCHA_COOKIE_STRING = "CaptchaCookie"
 
 # API Keys
-GROQ_API_KEY = "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"
+GROQ_API_KEY = ""
 
 # Initialize Groq client
 class GroqChatBot:
