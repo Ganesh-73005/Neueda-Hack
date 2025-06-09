@@ -71,16 +71,15 @@ if not os.path.exists(UPLOADS_DIR):
 # Geocoding function to get coordinates from address
 def geocode_address(address):
     try:
-        url = f"https://nominatim.openstreetmap.org/search?q={address}&format=json&limit=1"
-        headers = {"User-Agent": "ExpenseTrackerApp/1.0"}
-        response = requests.get(url, headers=headers)
+        url = f"https://photon.komoot.io/api/?q={requests.utils.quote(address)}&limit=1"
+        response = requests.get(url)
         data = response.json()
-        
-        if data and len(data) > 0:
+        if data.get("features"):
+            coords = data["features"][0]["geometry"]["coordinates"]
             return {
-                "lat": float(data[0]["lat"]),
-                "lon": float(data[0]["lon"]),
-                "display_name": data[0]["display_name"]
+                "lat": coords[1],
+                "lon": coords[0],
+                "display_name": data["features"][0]["properties"]["name"]
             }
         return None
     except Exception as e:
