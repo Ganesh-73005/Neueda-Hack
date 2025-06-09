@@ -1,0 +1,12 @@
+Flask
+Flask-CORS
+Flask-JWT-Extended
+Werkzeug
+pymongo
+requests
+google-generativeai
+joblib
+pandas
+scikit-learn
+Pillow
+python-dotenv
