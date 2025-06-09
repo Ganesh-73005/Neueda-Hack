@@ -1,0 +1,39 @@
+[{
+  "_id": "9543eb0a-7467-4c01-861d-b40ad3d54407",
+  "email": "vsuub@gmail.com",
+  "password": "scrypt:32768:8:1$P30zDwGe366POnuV$6b8bd94e91ff8d24efe19d32ef6e8830c23d69c38dc7e1e9e114ee6391de47ca69b152a39010f4c55c16818c66c8646cd254f1db9bf885f9e69175791316e40d",
+  "profile_completed": true,
+  "created_at": {
+    "$date": "2025-06-07T02:58:11.150Z"
+  },
+  "age": 21,
+  "income": 100000,
+  "name": "GANESH",
+  "updated_at": {
+    "$date": "2025-06-07T02:58:36.786Z"
+  }
+},
+{
+  "_id": "45e7c662-000f-4e06-ae87-8a51a32a7c12",
+  "email": "ganeshsriramulu2@gmail.com",
+  "password": "scrypt:32768:8:1$f36EnqZa6fRdyhD3$d62f0fceff0fbbde3212c40888c79111b61c99fb6ae2f9d5b0f25efcb43114475caf9fc574f6c68ed3db7325f777511ce0618e6b66e2d01f8668b697b688e066",
+  "profile_completed": true,
+  "created_at": {
+    "$date": "2025-06-07T04:13:38.716Z"
+  },
+  "age": 21,
+  "income": 100000,
+  "name": "Ganesh S",
+  "updated_at": {
+    "$date": "2025-06-07T04:13:50.050Z"
+  }
+},
+{
+  "_id": "1ab9d432-6ec8-4f5b-b4a3-b87ac8eb1994",
+  "email": "ganeshsriramulu23@gmail.com",
+  "password": "scrypt:32768:8:1$BEE9ofDOqWcQjF49$bea3784daec1edb9deeb0ad5a592442068eda96934cf7b4e79fef045a2d056497c771ce0691819218f4af354cfa6fb0451162242e6dce1e27f04b604b4ffe2b2",
+  "profile_completed": false,
+  "created_at": {
+    "$date": "2025-06-09T05:02:35.612Z"
+  }
+}]
